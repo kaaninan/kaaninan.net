@@ -1592,15 +1592,15 @@ ul.works li:last-child{
 }
 
 p.works-title{
-    font-size: 20px;
-    line-height: 2.75rem;
+    font-size: 2rem;
+    line-height: 2.9rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
     color: #222;
 }
 
 p.works-company{
-    font-size: 18px;
+    font-size: 1.75rem;
     margin-bottom: 2rem;
     font-weight: 700;
     color: #222;
@@ -1630,10 +1630,6 @@ p.works-sub{
 }
 
 
-@media screen and (max-width: 800px) { p.works-title{font-size: 17px; margin-bottom: 0.1rem;} }
-@media screen and (max-width: 800px) { p.works-company{font-size: 16px;} }
-@media screen and (max-width: 800px) { p.works-about{font-size: 15px;} }
-@media screen and (max-width: 800px) { p.works-sub{font-size: 14px;} }
 
 @media screen and (max-width: 600px) { p.works-title{font-size: 17px; margin-bottom: 0.1rem;} }
 @media screen and (max-width: 600px) { p.works-company{font-size: 16px;} }
