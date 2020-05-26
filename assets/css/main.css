@@ -739,7 +739,7 @@ p {
 .footer {
     widows: 100%;
     margin-top: -20px;
-    margin-bottom: -30px;
+    /*margin-bottom: -30px;*/
     font-size: 1.33333rem;
     text-align: center;
 }
@@ -1761,3 +1761,125 @@ ul.awards span.prize{
     }
     
 }
+
+
+.cities-title{
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    border-bottom: 1px solid black;
+}
+
+ul.cities{
+}
+ul.cities li{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 600px) { ul.cities li{font-size: 15px; margin-right: 20px; margin-bottom: 10px;} }
+@media screen and (max-width: 400px) { ul.cities li{font-size: 14px; margin-right: 5px; margin-bottom: 10px;} }
+
+.gr-1{
+    background-image: -webkit-linear-gradient(left, #3E89A6, #331568); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #3E89A6, #331568); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #3E89A6, #331568); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #3E89A6, #331568); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #3E89A6, #331568); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.gr-2{
+    background-image: -webkit-linear-gradient(left, #721062, #F00F4C); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #721062, #F00F4C); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #721062, #F00F4C); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #721062, #F00F4C); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #721062, #F00F4C); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.gr-3{
+    background-image: -webkit-linear-gradient(left, #B3EF95, #3B8E92); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #B3EF95, #3B8E92); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #B3EF95, #3B8E92); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #B3EF95, #3B8E92); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #B3EF95, #3B8E92); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.gr-4{
+    background-image: -webkit-linear-gradient(left, #E07096, #7A479E); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #E07096, #7A479E); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #E07096, #7A479E); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #E07096, #7A479E); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #E07096, #7A479E); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.gr-5{
+    background-image: -webkit-linear-gradient(left, #FEDF64, #FDAC64); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #FEDF64, #FDAC64); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #FEDF64, #FDAC64); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #FEDF64, #FDAC64); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #FEDF64, #FDAC64); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+.gr-6{
+    background-image: -webkit-linear-gradient(left, #0C3C40, #5FB8BC); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(left, #0C3C40, #5FB8BC); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(left, #0C3C40, #5FB8BC); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(left, #0C3C40, #5FB8BC); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #0C3C40, #5FB8BC); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+.footerBackground{
+    height: 60%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-image: url(../img/landscape.svg);
+    background-position: center 25rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*.footerBackground{
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-image: url(../img/landscape.svg);
+    background-position: center 120px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}*/
+
+@media screen and (max-width: 1024px) { .footerBackground{background-position: -240px 280px; height: 50%;} }
+@media screen and (max-width: 800px) { .footerBackground{background-position: -720px 360px; height: 50%;} }
+@media screen and (max-width: 700px) { .footerBackground{background-position: -520px 320px; height: 50%;} }
+@media screen and (max-width: 500px) { .footerBackground{background-position: -700px 330px; height: 300px;} }
+@media screen and (max-width: 400px) { .footerBackground{background-position: -630px 280px; height: 300px;} }
+@media screen and (max-width: 320px) { .footerBackground{background-position: -560px 250px; height: 250px;} }
+
+
+
